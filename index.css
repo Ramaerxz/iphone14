@@ -518,7 +518,7 @@ input[type=radio]{
 }
 
 .swatch[for=deep-purple] {
-    --swatch-s1: hsl(var(--deep-purple), 100% 50%);
+    --swatch-s1: hsl(var(--deep-purple), 100%, 50%);
     --swatch-s2: hsl(calc(var(--deep-purple) - 60), 100%, 20%)
 }
 
@@ -527,13 +527,13 @@ input[type=radio]{
 }
 
 .swatch[for=gold] {
-    --swatch-s1: hsl(var(--gold), 100% 50%);
-    --swatch-s2: hsl(var(--gold), 100% 50%);
+    --swatch-s1: hsl(var(--gold), 100%, 50%);
+    --swatch-s2: hsl(var(--gold), 100%, 50%);
 }
 
 .swatch[for=space-black]::before{
-    --swatch-s1: hsl(var(--space-black), 50% 20%);
-    --swatch-s2: hsl(var(--space-black), 50% 10%);
+    --swatch-s1: hsl(var(--space-black), 50%, 20%);
+    --swatch-s2: hsl(var(--space-black), 50%, 10%);
 }
 
 .swatch[for=space-black]::before{
@@ -541,8 +541,8 @@ input[type=radio]{
 }
 
 .swatch[for=silver]::before{
-    --swatch-s1: hsl(var(--silver), 50% 80%);
-    --swatch-s2: hsl(var(--silver), 50% 10%);
+    --swatch-s1: hsl(var(--silver), 50%, 80%);
+    --swatch-s2: hsl(var(--silver), 50%, 10%);
 }
 
 .swatch[for=silver]::before{
